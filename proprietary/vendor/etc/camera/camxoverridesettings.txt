@@ -1,0 +1,17 @@
+multiCameraLogicalXMLFile=abra.xml
+enableCameraSOISMask=0x1
+AECLuxIndexThresholdForLLHDR=140
+AECLuxIndexThresholdForSuperNight=320
+AECLuxIndexThresholdForDarkVision=455
+multiCameraHWSyncMask=0x1
+SOISOptimizationEnable=TRUE
+AECLuxIndexThresholdForQCFA=180
+AECDRCGainThresholdForQCFA=1.0
+UwAECLuxIndexThresholdForLLHDR=270
+UwAECLuxIndexThresholdForDarkVision=520
+UwAECLuxIndexThresholdForQCFA=10
+logRequestMapping=FALSE
+logCoreCfgMask=0x10082
+logWarningMask=0x75ffffff
+EISv3OperationMode=2
+EISv2OperationMode=2

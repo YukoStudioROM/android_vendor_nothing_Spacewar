@@ -1,0 +1,35 @@
+35                                      // Number_of_arguments
+13                                      // MajorBaselineVersion
+0                                       // MinorBaselineVersion
+1                                       // MinorMinorBaselineVersion
+8                                       // PatchBaselineVersion
+LVM_MODE_ON                             // AZProc
+LVACFS_ABSOLUTE_PATH                    // PathDef
+1                                       // NbCalibration360s
+/vendor/etc/lvacfs_params/4mic/LVACFS_Calibration360.dat              // CalibrationFile0
+5                                    // NbProfile
+1                                      // DeviceId1
+/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID1_MIC_HDR_standard.txt           // Profile standard
+2                                       // DeviceId2
+/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID2_MIC_HDR_voicefocus.txt         // Profile voicefocus
+3                                       // DeviceId3
+/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID3_MIC_HDR_wideband.txt            // Profile wideband
+4                                      // DeviceId4
+/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID4_MIC_Cam_back.txt           // Profile 3D
+13                                     // DeviceId4
+/vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID13_MIC_Cam_front.txt           // Profile 3D
+LVM_MODE_OFF                            // EnableDebug
+LVM_MODE_OFF                            // StatusReporting
+/vendor/etc/LVAC_Status.bin          // LVAC_StatusFile
+LVACFS_PCM_MODE_CONTINUOUS                    // InPCMSavingMode
+16000                                   // InPCMSavingBufferSize
+/data/vendor/audio/Ac_in.pcm                // InPCMSavingFilename
+LVACFS_PCM_MODE_OFF                     // InPCMInjectionMode
+16000                                   // InPCMInjectionBufferSize
+/vendor/etc/TestInput.pcm                  // InPCMInjectionFilename
+LVACFS_PCM_MODE_CONTINUOUS                    // OutPCMSavingMode
+16000                                   // OutPCMSavingBufferSize
+/data/vendor/audio/Ac_out.pcm               // OutPCMSavingFilename
+LVACFS_PCM_MODE_OFF                     // OutPCMInjectionMode
+16000                                   // OutPCMInjectionBufferSize
+/vendor/etc/TestOutput.pcm                  // OutPCMInjectionFilename

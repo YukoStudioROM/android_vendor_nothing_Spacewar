@@ -1,0 +1,47 @@
+47                                      // Number_of_arguments
+13                                      // MajorBaselineVersion
+0                                       // MinorBaselineVersion
+1                                       // MinorMinorBaselineVersion
+8                                       // PatchBaselineVersion
+LVM_MODE_ON                             // AZProc
+LVACFS_ABSOLUTE_PATH                    // PathDef
+1                                       // NbCalibration360s
+/vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat              // CalibrationFile0
+11                                    // NbProfile
+1                                      // DeviceId1
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID1_MIC_HDR_standard.txt           // Profile standard
+2                                       // DeviceId2
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID2_MIC_HDR_voicefocus.txt         // Profile voicefocus
+3                                       // DeviceId3
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID3_MIC_HDR_wideband.txt            // Profile wideband
+5                                       // DeviceId5
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID5_MIC_Normal.txt            // Profile normal
+6                                       // DeviceId6
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID6_MIC_App.txt            // Profile
+7                                      // DeviceId7
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID7_MIC_He.txt            // Profile
+8                                       // DeviceId8
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID8_MIC_He_App.txt            // Profile
+9                                       // DeviceId9
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID9_He_Unprocess.txt            // Profile
+10                                       // DeviceId10
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID10_He_USB_Digital_48K.txt            // Profile
+11                                       // DeviceId11
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID11_He_USB_Digital_16K.txt            // Profile
+12                                       // DeviceId12
+/vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID12_He_BT_16K.txt           // Profile 0
+LVM_MODE_OFF                            // EnableDebug
+LVM_MODE_OFF                            // StatusReporting
+/data/vendor/audio/LVAC_Status.bin          // LVAC_StatusFile
+LVACFS_PCM_MODE_CONTINUOUS                    // InPCMSavingMode
+16000                                   // InPCMSavingBufferSize
+/data/vendor/audio/Ac_in.pcm                // InPCMSavingFilename
+LVACFS_PCM_MODE_OFF                     // InPCMInjectionMode
+16000                                   // InPCMInjectionBufferSize
+/data/vendor/audio/TestInput.pcm                  // InPCMInjectionFilename
+LVACFS_PCM_MODE_CONTINUOUS                    // OutPCMSavingMode
+16000                                   // OutPCMSavingBufferSize
+/data/vendor/audio/Ac_out.pcm               // OutPCMSavingFilename
+LVACFS_PCM_MODE_OFF                     // OutPCMInjectionMode
+16000                                   // OutPCMInjectionBufferSize
+/data/vendor/audio/TestOutput.pcm                  // OutPCMInjectionFilename

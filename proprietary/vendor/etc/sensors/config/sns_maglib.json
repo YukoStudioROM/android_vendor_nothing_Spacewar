@@ -1,0 +1,18 @@
+{
+  "config": {
+    "hw_platform": ["MTP", "QRD"],
+    "soc_id": ["475"]
+  },
+  "maglib": {
+    "owner": "maglib",
+    ".config": {
+      "owner": "maglib",
+      ".default": {
+        "owner": "maglib",
+        "sample_rate": { "type": "flt", "ver": "0",
+          "data": "50.0"
+        }
+      }
+    }
+  }
+}

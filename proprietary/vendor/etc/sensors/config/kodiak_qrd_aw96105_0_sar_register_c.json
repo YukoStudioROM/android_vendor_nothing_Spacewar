@@ -1,0 +1,51 @@
+{
+	"config":{
+		"hw_platform": ["QRD"],
+		"soc_id": ["475"]
+	},
+	"aw9610x_0_sar":{
+		"owner": "sns_aw9610x",
+		".register_c":{
+			"owner": "sns_aw9610x",
+			"check_sum": { "type": "int", "ver": "0",
+			"data": "0x403FB257"
+			},
+			"reg_0x41FC":{ "type": "int", "ver": "0", "data": "0x41FC"},
+			"reg_0x41FC_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4400":{ "type": "int", "ver": "0", "data": "0x4400"},
+			"reg_0x4400_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4410":{ "type": "int", "ver": "0", "data": "0x4410"},
+			"reg_0x4410_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4420":{ "type": "int", "ver": "0", "data": "0x4420"},
+			"reg_0x4420_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4430":{ "type": "int", "ver": "0", "data": "0x4430"},
+			"reg_0x4430_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4440":{ "type": "int", "ver": "0", "data": "0x4440"},
+			"reg_0x4440_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4450":{ "type": "int", "ver": "0", "data": "0x4450"},
+			"reg_0x4450_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4460":{ "type": "int", "ver": "0", "data": "0x4460"},
+			"reg_0x4460_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x4470":{ "type": "int", "ver": "0", "data": "0x4470"},
+			"reg_0x4470_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0xF084":{ "type": "int", "ver": "0", "data": "0xF084"},
+			"reg_0xF084_val":{ "type": "int", "ver": "0", "data": "0x00000206"},
+			"reg_0xF800":{ "type": "int", "ver": "0", "data": "0xF800"},
+			"reg_0xF800_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0xF804":{ "type": "int", "ver": "0", "data": "0xF804"},
+			"reg_0xF804_val":{ "type": "int", "ver": "0", "data": "0x00002E00"},
+			"reg_0xFF00":{ "type": "int", "ver": "0", "data": "0xFF00"},
+			"reg_0xFF00_val":{ "type": "int", "ver": "0", "data": "0x00000301"},
+			"reg_0xFF0C":{ "type": "int", "ver": "0", "data": "0xFF0C"},
+			"reg_0xFF0C_val":{ "type": "int", "ver": "0", "data": "0x01000000"},
+			"reg_0xFFE0":{ "type": "int", "ver": "0", "data": "0xFFE0"},
+			"reg_0xFFE0_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0xFFF4":{ "type": "int", "ver": "0", "data": "0xFFF4"},
+			"reg_0xFFF4_val":{ "type": "int", "ver": "0", "data": "0x00004011"},
+			"reg_0xFFF8":{ "type": "int", "ver": "0", "data": "0xFFF8"},
+			"reg_0xFFF8_val":{ "type": "int", "ver": "0", "data": "0x00000000"},
+			"reg_0x009C":{ "type": "int", "ver": "0", "data": "0x009C"},
+			"reg_0x009C_val":{ "type": "int", "ver": "0", "data": "0x3F3F3F3F"}
+		}
+	}
+}

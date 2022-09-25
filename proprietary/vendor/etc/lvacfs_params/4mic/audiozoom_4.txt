@@ -1,0 +1,8 @@
+#audiozoom_0.txt use for back camera recording.
+
+#MIN    MAX       EFFECTLEVEL      Gain    VF      AngleWidth
+0       1.99      0                0       100     60
+2       3.49      45               4       100     45
+3.49    4.99      60               8       100     30
+5       6.99      80               10       100     30
+7       10.00     100              12       100     30
