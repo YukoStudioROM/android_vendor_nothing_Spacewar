@@ -8,6 +8,14 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/nothing/Spacewar/proprietary/system/lib/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdc.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdcBT_enc.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/liblhdcv5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdcv5.so \
+    vendor/nothing/Spacewar/proprietary/system/lib/liblhdcv5BT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdcv5BT_enc.so \
+    vendor/nothing/Spacewar/proprietary/system/lib64/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblhdc.so \
+    vendor/nothing/Spacewar/proprietary/system/lib64/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblhdcBT_enc.so \
+    vendor/nothing/Spacewar/proprietary/system/lib64/liblhdcv5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblhdcv5.so \
+    vendor/nothing/Spacewar/proprietary/system/lib64/liblhdcv5BT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblhdcv5BT_enc.so \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/tcmd \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
@@ -1047,6 +1055,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.realtimebokeh.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/components/com.arcsoft.node.singlebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.singlebokeh.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/components/com.arcsoft.node.videosn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.videosn.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/components/com.nothing.node.motion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.nothing.node.motion.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
@@ -1363,6 +1372,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr_t4.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_pdpc.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libmorpho_MotionSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_MotionSensor.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
