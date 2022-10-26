@@ -39,9 +39,9 @@
 -60             // LVAC_LVAC_InputCompressor_LVAC_MdrcBand_OutputLevels_OutputLevels_1
 -40             // LVAC_LVAC_InputCompressor_LVAC_MdrcBand_OutputLevels_OutputLevels_2
 -20             // LVAC_LVAC_InputCompressor_LVAC_MdrcBand_OutputLevels_OutputLevels_3
--16             // LVAC_LVAC_InputCompressor_LVAC_MdrcBand_OutputLevels_OutputLevels_4
+-10             // LVAC_LVAC_InputCompressor_LVAC_MdrcBand_OutputLevels_OutputLevels_4
 1               // LVAC_LVAC_InputEq_OperatingMode
-14              // LVAC_LVAC_InputEq_Gain
+10              // LVAC_LVAC_InputEq_Gain
 32              // LVAC_LVAC_InputEq_Channel_0_Channel_0_0
 32              // LVAC_LVAC_InputEq_Channel_0_Channel_0_1
 32              // LVAC_LVAC_InputEq_Channel_0_Channel_0_2
@@ -2374,7 +2374,7 @@
 0               // LVAC_LVAC_WNS_Gain
 1               // LVAC_LVAC_NoiseSuppression_OperatingMode
 -3              // LVAC_LVAC_NoiseSuppression_NoiseSuppression_NoiseSuppression_0
--18             // LVAC_LVAC_NoiseSuppression_NoiseSuppression_NoiseSuppression_1
+-15             // LVAC_LVAC_NoiseSuppression_NoiseSuppression_NoiseSuppression_1
 24000           // LVAC_LVAC_NoiseSuppression_NoiseThreshold
 6               // LVAC_LVAC_NoiseSuppression_InstrumentalNoiseThresholdOffset
 -18             // LVAC_LVAC_NoiseSuppression_SystemNoiseSuppression
@@ -4435,7 +4435,7 @@
 0               // LVAC_LVAC_AF_CenterGain_CenterGain_0
 12              // LVAC_LVAC_AF_CenterGain_CenterGain_1
 0               // LVAC_LVAC_AF_SideGain_SideGain_0
--24             // LVAC_LVAC_AF_SideGain_SideGain_1
+-18             // LVAC_LVAC_AF_SideGain_SideGain_1
 1               // LVAC_LVAC_AF_SideGainOffsetHFMode
 0               // LVAC_LVAC_AF_SideGainOffsetHF_SideGainOffsetHF_0
 -6              // LVAC_LVAC_AF_SideGainOffsetHF_SideGainOffsetHF_1
@@ -4549,9 +4549,9 @@
 3               // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_3_SC_AttackTime
 10              // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_3_SC_ReleaseTime
 1               // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_3_SC_Ratio
-1024            // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_Gain
-250             // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_Frequency
-150             // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_QFactor
+-2048           // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_Gain
+100             // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_Frequency
+80              // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_QFactor
 0               // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_SC_Source
 0               // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_SC_BandMode
 0               // LVAC_LVEQNB_BandDefinition_LVEQNB_BAND_4_SC_GainRange
